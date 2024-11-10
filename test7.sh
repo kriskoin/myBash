@@ -33,7 +33,7 @@ done
 
 xx = 10
 
-until [ 2 -gt $xx ]
+until [  -gt $xx ]
 do
     echo "El valor de xx : $xx"
     ((xx--))
